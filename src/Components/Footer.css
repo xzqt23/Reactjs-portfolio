@@ -1,0 +1,15 @@
+.footer{
+    background: #101010;
+    height: 50px;
+    color: white;
+    text-align: center;
+    z-index: 99;
+    
+}
+
+@media(max-width:600px){
+    .Footer{
+        height:145vh ;
+    }
+ }
+  

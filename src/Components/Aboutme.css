@@ -1,0 +1,95 @@
+.About{
+    height: 100vh;
+    background: #101010;
+    color: white;
+}
+
+.About p {
+    line-height: 50px;
+    font-size: 1.4em;
+}
+
+.About h2{
+    font-size: 2.8em;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.skills{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.skill-icon {
+    width: 100px;
+    height: 100px;
+
+  } 
+
+  
+#cv{
+    font-size: 1em;
+    position: relative;
+    left: 10%;
+    bottom: 10px;
+    margin-top: 25px;
+    padding: 10px;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#cv:hover{
+    background-position: right center;
+    background-size: 200% auto;
+    -webkit-animation: pulse 2s infinite;
+    animation: pulse512 1.5s infinite;
+}
+img{
+    object-fit: contain;
+}
+
+ h3{
+margin-bottom: 50px; 
+margin-left: 30px;
+}
+
+.About span{
+    font-size: 0.8em;
+}
+
+#info{
+    height: auto;
+}
+
+@media(width<=991px){
+    .About{
+        height: 140vh;
+    }
+    #main-about{
+        width: 500px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cv{
+        margin-bottom: 100px;
+    }
+
+} 
+
+
+@media(max-width:600px){
+    .About{
+        height:140vh ;
+    }
+ }
+
+ @media(max-width:376px){
+    .About{
+        height:185vh ;
+    }
+ }

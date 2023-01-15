@@ -1,0 +1,69 @@
+.Project{
+    height: 75vh;
+    background: #101010;
+    color: white;
+
+ }
+ .Project h2{
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 100px;
+ }
+
+
+#container img:hover{
+    opacity: 30%;
+} 
+
+#img1:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+#img2:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+#img3:hover{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+
+#container button{
+    font-size: 1em;
+    margin-top: 7px;
+    padding: 10px;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+  #project1,#project2,#project3 {
+    position: relative;
+  }
+  
+  
+  #project1 .btn1, #project2 .btn2, #project3 .btn3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+@media(max-width:600px){
+    .Project{
+        height:85vh ;
+    }
+ }
+
+ @media(max-width:376px){
+    .Project{
+        height:100vh ;
+    }
+ }
+
+
+
